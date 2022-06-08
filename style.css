@@ -1,0 +1,34 @@
+h1, h2{
+    color:white;
+    text-align: center;
+    font-weight: 300;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    overflow-x :hidden;
+}
+#JTG{
+    animation: fadeUp 1s  0.1s 1  forwards;
+}
+#jkimPhone{
+    animation: fadeUp 1s  0.3s 1  forwards;
+}
+#firstPhone{
+    animation: fadeUp 1s  0.3s 1  forwards;
+}
+#intro{
+    text-align: center;
+}
+.animatedFeatures{
+    animation: fadeUp 1s  0.2s 1  forwards;
+}
+@keyframes fadeUp{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
