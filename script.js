@@ -46,7 +46,7 @@ document.addEventListener('scroll', () => {
 })
 const btn = document.querySelector('button')
 btn.addEventListener('click', () => {
-    if(confirm('This phone is not available to buy in 10 years haha, do you want to check out the credits?')){
+    if(confirm('This phone is not available to buy in 10 years lol, do you want to check out the credits?')){
         alert('Coder : Jkim')
         alert('Modeller : Jkim')
         alert('Designer : Jkim')
